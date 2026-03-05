@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nimbus — Cloud Infrastructure Simplified</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <rect width="28" height="28" rx="6" fill="#2563eb"/>
+          <path d="M8 18c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="14" cy="10" r="2" fill="#fff"/>
+        </svg>
+        <span>Nimbus</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://docs.nimbus-example.dev" target="_blank">Docs</a>
+        <a href="#" class="btn btn-sm">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-badge">Now in public beta</div>
+      <h1>Cloud infrastructure<br>without the headache</h1>
+      <p class="hero-sub">Deploy, scale, and monitor your applications with a single command. Built for teams that ship fast.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary">Start free trial</a>
+        <a href="#" class="btn btn-ghost">View demo →</a>
+      </div>
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">terminal</span>
+        </div>
+        <div class="terminal-body">
+          <code>
+            <span class="prompt">$</span> nimbus deploy --prod<br>
+            <span class="dim">▸ Building container...</span><br>
+            <span class="dim">▸ Pushing to registry...</span><br>
+            <span class="dim">▸ Rolling out to 3 regions...</span><br>
+            <span class="success">✓ Deployed to production in 34s</span><br>
+            <span class="dim">  https://app.nimbus-example.dev</span>
+          </code>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Everything you need to ship</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant deploys</h3>
+          <p>Push to main and your app is live in under 60 seconds. Zero-downtime rolling deployments by default.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure by default</h3>
+          <p>TLS everywhere, secret management built in, and SOC 2 Type II compliant infrastructure.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Observability</h3>
+          <p>Logs, metrics, and traces in one dashboard. Set up alerts in minutes, not hours.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Multi-region</h3>
+          <p>Deploy to 12 regions worldwide. Automatic failover and geo-routing keep your users happy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Simple, transparent pricing</h2>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price">$0<span>/mo</span></div>
+          <p>For side projects and experiments</p>
+          <ul>
+            <li>1 app</li>
+            <li>Shared compute</li>
+            <li>Community support</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Get started</a>
+        </div>
+        <div class="price-card featured">
+          <div class="price-badge">Popular</div>
+          <h3>Pro</h3>
+          <div class="price">$29<span>/mo</span></div>
+          <p>For growing teams</p>
+          <ul>
+            <li>Unlimited apps</li>
+            <li>Dedicated compute</li>
+            <li>Priority support</li>
+            <li>Custom domains</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Start free trial</a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <div class="price">Custom</div>
+          <p>For large organizations</p>
+          <ul>
+            <li>Everything in Pro</li>
+            <li>SSO / SAML</li>
+            <li>SLA guarantee</li>
+            <li>Dedicated support</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Contact sales</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Nimbus Cloud, Inc. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="https://github.com/nimbus-example" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

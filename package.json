@@ -1,0 +1,21 @@
+{
+  "name": "nimbus-landing",
+  "version": "2.4.1",
+  "description": "Nimbus Cloud marketing site",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "node scripts/build.js",
+    "lint": "npx htmlhint index.html",
+    "test": "echo \"No tests configured\" && exit 0",
+    "postinstall": "echo \"Dependencies installed successfully\""
+  },
+  "dependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "serve": "^14.2.4"
+  }
+}
